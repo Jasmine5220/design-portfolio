@@ -1,0 +1,131 @@
+body, html {
+  height: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+body {
+  background-image: url("images/bgg3.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: rgb(14, 14, 18);
+  height: 20px;
+}
+
+nav img {
+  width: 200px;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 20px;
+  color: #fff;
+}
+
+nav a:hover {
+  text-decoration: wavy;
+  color: #3385e2;
+}
+
+.contact-number {
+  display: flex;
+  color: #fff;
+  padding: 5px;
+}
+
+.contact-number img {
+  margin-top: 15px;
+  width: 10px;
+  height: 20px;
+}
+
+.heading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: normal;
+  letter-spacing: 8px;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-color: #3385e2;
+  border-bottom-style: solid;
+  border-bottom-width: 7.1px;
+  width: fit-content;
+}
+
+.content {
+  display: flex;
+  margin-left: 50px;
+}
+
+.third-column .first-column .second-column {
+  margin-top: 30px;
+  width: 500px;
+}
+.row1-hobby {
+  display: flex;
+}
+.row2-hobby {
+  display: flex;
+}
+.row1-hobby img, .row2-hobby img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: #fff solid;
+  margin-left: 50px;
+  margin-right: 100px ;
+}
+
+.second-column, .third-column {
+  margin-left: 100px;
+}
+
+.experience {
+  margin-bottom: 60px;
+}
+
+.first-experience {
+  margin-top: 30px;
+}
+
+.first-experience img, .second-experience img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: #fff solid;
+  margin-right: 10px;
+}
+
+.first-experience p, .second-experience p, .first-experience ul{
+  margin-top: -0.02px;
+}
+
+.skill img {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.skill {
+  display: flex;
+  padding: 10px;
+}
+
+.skill p {
+  margin-top: -0.02px;
+}

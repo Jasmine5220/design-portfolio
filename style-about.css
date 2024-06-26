@@ -1,0 +1,92 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("images/image-required.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: rgb(14, 14, 18);
+  height: 20px;
+}
+
+nav img {
+  width: 200px;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 20px;
+  color: #fff;
+}
+
+nav a:hover {
+  text-decoration: wavy;
+  color: #3385e2;
+}
+
+.contact-number {
+  display: flex;
+  color: #fff;
+  padding: 5px;
+}
+
+.contact-number img {
+  margin-top: 15px;
+  width: 10px;
+  height: 20px;
+}
+
+#heading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: normal;
+  letter-spacing: 8px;
+  color: #fff;
+  font-size: 70px;
+  margin-top: 150px;
+  margin-left: 300px;
+  margin-bottom: -1%;
+  padding-bottom: 5px;
+  border-color: #3385e2;
+  border-bottom-style: solid;
+  border-bottom-width: 7.1px;
+  width: fit-content;
+}
+
+#email {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: normal;
+  letter-spacing: 5px;
+  color: #fff;
+  margin-left: 300px;
+}
+
+.text-about {
+  width: 800px;
+  margin-left: 100px;
+  font-size: larger;
+}
+
+.bottoms-up {
+  display: flex;
+  margin-top: 50px;
+}
+
+.address {
+  margin-left: 25%;
+}

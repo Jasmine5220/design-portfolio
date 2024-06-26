@@ -1,0 +1,121 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("images/bg.avif");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: rgb(14, 14, 18);
+  height: 20px;
+}
+
+nav img {
+  width: 200px;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 20px;
+  color: #fff;
+}
+
+nav a:hover {
+  text-decoration: wavy;
+  color: #3385e2;
+}
+
+.contact-number {
+  display: flex;
+  color: #fff;
+  padding: 5px;
+}
+
+.contact-number img {
+  margin-top: 15px;
+  width: 10px;
+  height: 20px;
+}
+
+#first-name {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 8px;
+  color: #fff;
+  font-size: 90px;
+  margin-top: 150px;
+  margin-left: 300px;
+  margin-bottom: -1%;
+}
+
+#last-name {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 8px;
+  color: #fff;
+  font-size: 90px;
+  margin-top: -2%;
+  margin-bottom: 0%;
+  margin-left: 300px;
+}
+
+#designation {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 12px;
+  font-stretch: wider;
+  color: #fff;
+  font-size: 40px;
+  margin-left: 300px;
+  margin-top: 0%;
+}
+
+.main-buttons {
+  margin-left: 300px;
+}
+
+button {
+  color: #fbfcfd;
+  padding: 10px 25px;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+  margin-right: 20px;
+  opacity: 0.7;
+}
+
+button:hover {
+  color: #3385e2;
+  border: 1px solid #3385e2;
+  opacity: 1;
+}
+
+.social-media {
+  display: flex;
+  width: 50px;
+  text-align: bottom;
+  position: fixed;
+  margin-top: 160px;
+  margin-left: 75%;
+}
+
+.social-media img {
+  width: 40px;
+  margin: 5px 10px auto;
+  cursor: pointer;
+}
